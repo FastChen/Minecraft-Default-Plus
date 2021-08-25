@@ -1,4 +1,12 @@
-# Minecraft-Default-Plus
+<div align="center">
+  <img src="./Default+/pack.png" alt="Minecraft-Default-Plus" />
+  <h3>Default+</h3>
+  <p>原版细节升级 (但凡Mojang少咕一些)</p>
+  <img src="https://img.shields.io/github/stars/fastchen/Minecraft-Default-Plus?label=Star&logo=github"/>
+  <a href="https://github.com/FastChen/Minecraft-Default-Plus/issues"><img src="https://img.shields.io/github/issues/fastchen/Minecraft-Default-Plus?label=Issues"/></a>
+  <img src="https://img.shields.io/github/license/fastchen/Minecraft-Default-Plus?label=License"/>
+  <a href="https://github.com/FastChen/Minecraft-Default-Plus/releases"><img src="https://img.shields.io/github/v/release/fastchen/Minecraft-Default-Plus?label=Release"/></a>
+</div>
 
 ### # 材质简介
 
