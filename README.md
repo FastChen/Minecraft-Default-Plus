@@ -17,7 +17,7 @@
 
 自发光
 - [x] Optifine
-- [x] ConnectedTexturesMod for Fabric
+- [x] [ConnectedTexturesMod for Fabric](https://www.curseforge.com/minecraft/mc-mods/ctm-fabric)
 
 ### # 主包?组件包? 是什么
 
