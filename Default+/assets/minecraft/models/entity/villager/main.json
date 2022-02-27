@@ -1,0 +1,284 @@
+{
+    "texture": {
+        "width": 64,
+        "height": 64
+    },
+    "bones": {
+        "head": {
+            "cuboids": [
+                {
+                    "offset": [
+                        -4,
+                        -10,
+                        -4
+                    ],
+                    "dimensions": [
+                        8,
+                        10,
+                        8
+                    ],
+                    "uv": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "children": {
+                "nose": {
+                    "transform": {
+                        "origin": [
+                            0,
+                            -2,
+                            0
+                        ]
+                    },
+                    "cuboids": [
+                        {
+                            "offset": [
+                                -1,
+                                -1,
+                                -6
+                            ],
+                            "dimensions": [
+                                2,
+                                4,
+                                2
+                            ],
+                            "uv": [
+                                24,
+                                0
+                            ]
+                        }
+                    ],
+                    "children": {}
+                },
+                "hat": {
+                    "cuboids": [
+                        {
+                            "offset": [
+                                -4,
+                                -10,
+                                -4
+                            ],
+                            "dimensions": [
+                                8,
+                                10,
+                                8
+                            ],
+                            "uv": [
+                                32,
+                                0
+                            ],
+                            "dilation": [
+                                0.5,
+                                0.5,
+                                0.5
+                            ]
+                        }
+                    ],
+                    "children": {
+                        "hat_rim": {
+                            "transform": {
+                                "rotation": [
+                                    -1.5707964000000003,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "cuboids": [
+                                {
+                                    "offset": [
+                                        -8,
+                                        -8,
+                                        -6
+                                    ],
+                                    "dimensions": [
+                                        16,
+                                        16,
+                                        1
+                                    ],
+                                    "uv": [
+                                        30,
+                                        47
+                                    ]
+                                }
+                            ],
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "left_leg": {
+            "transform": {
+                "origin": [
+                    2,
+                    12,
+                    0
+                ]
+            },
+            "cuboids": [
+                {
+                    "offset": [
+                        -2,
+                        0,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "uv": [
+                        0,
+                        22
+                    ],
+                    "mirror": true
+                }
+            ],
+            "children": {}
+        },
+        "right_leg": {
+            "transform": {
+                "origin": [
+                    -2,
+                    12,
+                    0
+                ]
+            },
+            "cuboids": [
+                {
+                    "offset": [
+                        -2,
+                        0,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "uv": [
+                        0,
+                        22
+                    ]
+                }
+            ],
+            "children": {}
+        },
+        "arms": {
+            "transform": {
+                "origin": [
+                    0,
+                    3,
+                    -1
+                ],
+                "rotation": [
+                    -0.75,
+                    0,
+                    0
+                ]
+            },
+            "cuboids": [
+                {
+                    "offset": [
+                        -8,
+                        -2,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        8,
+                        4
+                    ],
+                    "uv": [
+                        44,
+                        22
+                    ]
+                },
+                {
+                    "offset": [
+                        4,
+                        -2,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        8,
+                        4
+                    ],
+                    "uv": [
+                        44,
+                        22
+                    ],
+                    "mirror": true
+                },
+                {
+                    "offset": [
+                        -4,
+                        2,
+                        -2
+                    ],
+                    "dimensions": [
+                        8,
+                        4,
+                        4
+                    ],
+                    "uv": [
+                        40,
+                        38
+                    ]
+                }
+            ],
+            "children": {}
+        },
+        "body": {
+            "cuboids": [
+                {
+                    "offset": [
+                        -4,
+                        0,
+                        -3
+                    ],
+                    "dimensions": [
+                        8,
+                        12,
+                        6
+                    ],
+                    "uv": [
+                        16,
+                        20
+                    ]
+                }
+            ],
+            "children": {
+                "jacket": {
+                    "cuboids": [
+                        {
+                            "offset": [
+                                -4,
+                                0,
+                                -3
+                            ],
+                            "dimensions": [
+                                8,
+                                20,
+                                6
+                            ],
+                            "uv": [
+                                0,
+                                38
+                            ],
+                            "dilation": [
+                                0.5,
+                                0.5,
+                                0.5
+                            ]
+                        }
+                    ],
+                    "children": {}
+                }
+            }
+        }
+    }
+}
